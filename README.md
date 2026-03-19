@@ -37,9 +37,7 @@ Số mẫu ban đầu: 45,211
 
 Số thuộc tính ban đầu: 17
 
-Sau xử lý:
-
-Loại bỏ duration (tránh data leakage)
+Sau xử lý: Loại bỏ duration (tránh data leakage)
 
 Còn: 45,211 × 16
 
@@ -69,9 +67,7 @@ One-Hot Encoding cho biến phân loại
 Chuẩn hóa dữ liệu số (StandardScaler)
 
 Mã hóa biến mục tiêu:
-
-yes → 1
-
+yes → 1,
 no → 0
 
 👉 Sau xử lý: Kích thước dữ liệu: 45,211 × 41
